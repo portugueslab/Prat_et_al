@@ -23,6 +23,8 @@ Download data and clone repo:
     ```bash
     > pip install -e . 
     ```
+    
+When running the notebooks, remember to change the location to the location where you have downloaded the data!
 
 ## Description of the repo
 The final code to replicate all plots from the manuscript can be found in the `figures_notebooks` folder.
