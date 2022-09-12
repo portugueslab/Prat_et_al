@@ -1,0 +1,32 @@
+lines.linewidth   : 1.0     # line width in points
+lines.markersize  : 3            # markersize, in points
+axes.labelsize : 7
+axes.titlesize : 8
+xtick.labelsize : 7
+ytick.labelsize : 7
+legend.fontsize : 7
+#font.family : ['sans-serif']
+#font.sans-serif : ['Arial']
+#font.name : ['Arial']
+svg.fonttype : none
+legend.frameon       : False
+axes.spines.top : False
+axes.spines.right : False
+axes.facecolor      : None
+axes.grid : False
+axes.edgecolor      : 0.3   # axes edge color
+xtick.color          : 0.3      # color of the tick labels
+ytick.color          : 0.3     # color of the tick labels
+axes.labelcolor     : 0.3
+axes.linewidth      : 0.8
+xtick.major.width    : 0.8    # major tick width in points
+xtick.minor.width    : 0.8    # minor tick width in points
+ytick.major.width    : 0.8    # major tick width in points
+ytick.minor.width    : 0.8    # minor tick width in points
+ytick.minor.size     : 5      # minor tick size in points
+ytick.major.size     : 5      # minor tick size in points
+xtick.minor.size     : 5     # minor tick size in points
+xtick.major.size     : 5      # minor tick size in points
+axes.prop_cycle    : cycler('color',  ['c65250', '058299', '5a8f40', 'ac7730', '8a4ea6', '843963', '594792', '554f3a'])
+figure.facecolor : none
+savefig.format : pdf
