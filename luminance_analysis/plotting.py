@@ -168,7 +168,7 @@ def plot_clusters_dendro(traces, stim, linkage_mat, labels, prefix="",
     axmatrix = figure.add_axes([0.2*w + w_p, 0.2*h + h_p, 0.3*w, 0.5*h])
     im = axmatrix.imshow(traces[panel_dendro["leaves"], :],
                          aspect='auto', origin='lower', cmap=cm.RdBu_r,
-                         vmin=-f_lim, vmax=f_lim)
+                         vmin=-f_lim, vmax=f_lim, interpolation='none')
     axmatrix.axes.spines['left'].set_visible(False)
     axmatrix.set_yticks([])
 
