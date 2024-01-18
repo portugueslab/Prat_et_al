@@ -23,8 +23,10 @@ Download data and clone repo:
     ```bash
     > pip install -e . 
     ```
+    
+When running the notebooks, remember to change the location to the location where you have downloaded the data!
 
-## Description of the repo
+## Description of the repository
 The final code to replicate all plots from the manuscript can be found in the `figures_notebooks` folder.
 
 The code to perform the decoding analysis appearing in some of the figures can be found in the `decoding` folder. This should be run before the notebooks to reproduce the figures, as some data not provided in the zenodo link needs to be generated. 

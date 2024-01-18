@@ -1,20 +1,21 @@
 {
-   "description":"<p>Analysis code and notebooks for the analysis and figures of the paper 'Comparing the representation of a simple visual stimulus across the cerebellar network'. This is a pre-release Zenodo archiving.</p>",
-   "title":"luminance_analysis",
+   "description":"<p>Software going with Prat et al, Comparing the representation of a simple visual stimulus across the cerebellar network. The repo contains a README.md file with the full description of the content. This is a pre-release Zenodo archiving.</p>",
+   "title":"Comparing the representation of a simple visual stimulus across the cerebellar network [code]",
    "creators":[
-      {
+     {
          "orcid":"0000-0001-7925-5441",
-	 "affiliation":"Institute of Neuroscience, Technical University of Munich, Germany",
-	 "name":"Prat, Ot"
+         "affiliation":"Institute of Neuroscience, Technical University of Munich, Germany",
+         "name":"Prat, Ot"
       },
-      {
+     {
          "orcid":"0000-0003-4001-0564",
          "affiliation":"Institute of Neuroscience, Technical University of Munich, Germany",
          "name":"Petrucco, Luigi"
       },
       {
-         "name":"\u0160tih, Vilim",
-	 "affiliation":"Max Planck Institute of Neurobiology, Sensorimotor Control Research Group, Martinsried 82152, Germany",
+         "orcid":"0000-0002-5108-8204",
+         "affiliation":"Vara, Max-Urich-Str. 313355 Berlin, Germany",
+         "name":"\u0160tih, Vilim"
       },
       {
          "orcid":"0000-0002-1495-9314",
