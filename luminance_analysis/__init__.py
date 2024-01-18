@@ -389,7 +389,7 @@ class FishData(Data):
         return np.argwhere((self.roi_stack == roi_id).any((1, 2)))[0]
 
     def get_roi_anatomy(self, roi_id, crop_around=30):
-        cell_center = np.array(center_of_mass(self.roi_stack == roi_id), dtype=np.int)
+        cell_center = np.array(center_of_mass(self.roi_stack == roi_id), dtype=int)
 
         anatomy_img = self.anatomy[cell_center[0],
                                    cell_center[1]-crop_around:cell_center[1]+crop_around,
@@ -402,7 +402,7 @@ class FishData(Data):
 
     def get_roi_anatomy_stacks(self, roi_id, crop_around=30):
         roi_planes = np.unique(np.argwhere(self.roi_stack == roi_id)[:, 0])
-        roi_center = np.array(center_of_mass(self.roi_stack == roi_id), dtype=np.int)
+        roi_center = np.array(center_of_mass(self.roi_stack == roi_id), dtype=int)
 
         anatomy_img = self.anatomy[roi_planes,
                       roi_center[1] - crop_around:roi_center[1] + crop_around,

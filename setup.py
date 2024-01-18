@@ -17,6 +17,9 @@ setup(
         "ipywidgets",
         "pandas",
         "flammkuchen",
-        "seaborn"
+        "seaborn",
+        "cmocean",
+        "scikit-learn",
+        "bouter"
     ],
 )
