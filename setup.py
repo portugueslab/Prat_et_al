@@ -15,6 +15,8 @@ setup(
         "matplotlib",
         "scikit-image",
         "ipywidgets",
-        "pandas"
+        "pandas",
+        "flammkuchen",
+        "seaborn"
     ],
 )
